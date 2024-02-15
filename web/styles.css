@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#c6b2b8 0%, #a76f807d 40%, #944E63 100%);
+    font-family: Arial, sans-serif;
+
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.header {
+    background: linear-gradient(#c6b2b8ef 0%, #a76f8097 40%, #944e63 100%);
+    display: flex;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wave-bawah {
+    margin-top: -100px;
+   justify-content: flex-end;
+}
+
+.biodata {
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    margin-top: -200px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 30%; /* Lebar kolom, disesuaikan sesuai kebutuhan */
+    margin: 10px; /* Jarak antar kolom */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Susun kotak-kotak secara vertikal */
+    align-items: center; /* Pusatkan kotak-kotak di tengah */
+}
+
+.box {
+    width: 200px; /* Atur lebar kotak */
+    height: 30px; /* Atur tinggi kotak */
+    margin-bottom: 20px; /* Beri jarak antar kotak */
+    background-color: #b6939def; /* Atur warna latar belakang kotak */
+    border-radius: 10px; /* Membuat sudut kotak sedikit melengkung */
+    padding: 20px; /* Beri padding untuk konten di dalam kotak */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan lembut ke kotak */
+    text-align: center; /* Pusatkan teks di dalam kotak */
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #944E63;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Page-Specific Styles */
+section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #944E63;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #944E63;
+    color: #fff;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    padding-bottom: 150px;
+}
+
+.itemSosmed {
+    color: white;
+    font-size: 40px;
+    padding-top: -40px;
+    margin-right: 10px;
+}
+
+.contacme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact-right {
+    margin-top: -250px;
+}
+
+.contact {
+    padding-bottom: 100px;
+}
